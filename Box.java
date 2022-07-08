@@ -1,11 +1,11 @@
 class Volume
 {
    private int height,width,depth,volume;
-   public void displayVol()
+   public void displayVol() //Default Constructor
    {
       System.out.println("The volume is:"+volume);
     }
-     public void calculateVol(int h,int l,int d)
+     public void calculateVol(int h,int l,int d) // Parameterised constructor
     {
        volume=h*l*d;
      }
